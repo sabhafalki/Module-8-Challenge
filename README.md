@@ -17,7 +17,7 @@ The analysis consisted of the following:
 - Data Source : wikipedia.movies.json, movies_metadata.csv, ratings.csv 
 
 # Results #
-## Write an ETL Function to Read Three Data Files ##
+## an ETL Function to Read Three Data Files ##
 The following depicts the DB Schema. <br>
 ![DBD](/Pewlett-Hackard-Analysis/Image/EmployeeDB.png)
 
