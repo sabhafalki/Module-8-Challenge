@@ -1,6 +1,6 @@
 # Module-8-Challenge  Movies-ETL
 # Overview of Project #
-The purpose of this Project is to develop an algorithm to perdicte which low baget movie release with be popular, so that they can buy the streaming rights. Amazing Prime company had organised Hackathon event to collaborate with local teams to analyse the data, for the hackathon the teams have to gather data from both Wikipedia and Kaggle, combine them, and save them into a SQL database so that they have clean dataset by ELT process. 
+The purpose of this Project is to develop an algorithm to perdicte which low baget movie release with be popular, so that they can buy the streaming rights. Amazing Prime company had organised Hackathon event to collaborate with local teams to analyse the data, for the hackathon the teams have to gather data from both Wikipedia and Kaggle, combine them, and save them into a SQL database so that they have clean dataset by ELT process. Furthermore, create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
 
 The analysis consisted of the following:
 1. Extract the Wikipedia and Kaggle data from their respective files.
@@ -9,15 +9,15 @@ The analysis consisted of the following:
 
 # Resources #
 
-- Extract - ETL_function_test.ipynb
-- Transform - ETL_clean_wiki_movies.ipynb & ETL_clean_kaggle_data.ipynb <br>
-- Load - ETL_create_database.ipynb <br>
-- Languages: Python, SQL <br>
-- Tools: Jupyter Notebook, JSON, Pandas, NumPy, sqlalchemy, psycopg2 <br>
-- Data Source(s): wikipedia.movies.json, movies_metadata.csv, ratings.csv 
+- Extract : ETL_function_test.ipynb
+- Transform : ETL_clean_wiki_movies.ipynb & ETL_clean_kaggle_data.ipynb <br>
+- Load : ETL_create_database.ipynb <br>
+- Languages : Python, SQL <br>
+- Tools : Jupyter Notebook, JSON, Pandas, NumPy, sqlalchemy, psycopg2 <br>
+- Data Source : wikipedia.movies.json, movies_metadata.csv, ratings.csv 
 
 # Results #
-## The ER Data Diagram ##
+## Write an ETL Function to Read Three Data Files ##
 The following depicts the DB Schema. <br>
 ![DBD](/Pewlett-Hackard-Analysis/Image/EmployeeDB.png)
 
