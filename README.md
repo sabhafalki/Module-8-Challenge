@@ -1,6 +1,6 @@
 # Module-8-Challenge  Movies-ETL
 # Overview of Project #
-The purpose of this Project is to develop an algorithm to perdicte which low baget movie release with be popular, so that they can buy the streaming rights. Amazing Prime company had organised Hackathon event to collaborate with local teams to analyse the data, for the hackathon the teams have to gather data from both Wikipedia and Kaggle, combine them, and save them into a SQL database so that they have clean dataset by ELT process. Furthermore, create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
+The purpose of this Project is to develop an algorithm to perdicte which low baget movie release will be the most popular, in order to buy the relevant streaming rights. Amazing Prime company had organised Hackathon event to collaborate with local teams to analyse the data, for the hackathon the teams have to gather data from both Wikipedia and Kaggle, combine them, and save them into a SQL database so that they have clean dataset by ELT process. Furthermore, create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
 
 The analysis consisted of the following:
 1. Extract the Wikipedia and Kaggle data from their respective files.
@@ -18,10 +18,11 @@ The analysis consisted of the following:
 
 # Results #
 ## an ETL Function to Read Three Data Files ##
+MovieLens is a website run by the GroupLens research group at the University of Minnesota.The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database 
 The following depicts the DB Schema. <br>
 ![DBD](/Pewlett-Hackard-Analysis/Image/EmployeeDB.png)
 
-##  The Number of Retiring Employees by Title ##
+##  Extract and Transform the Wikipedia Data ##
 The following tables mentions the retiring employees by title, on the basis of their birth dates (i.e. born between 1952 and 1955). <br>
 ![retirement_titles](/Pewlett-Hackard-Analysis/Image/retirement_titles.png) <br>
 
@@ -32,13 +33,12 @@ The following table counts the number of employees based on their titles. <br>
 ![retiring_titles](/Pewlett-Hackard-Analysis/Image/retiring_titles.png)
 <br><br>
 
-## The Employees Eligible for the Mentorship Program ##
+## Extract and Transform the Kaggle data ##
 The following table depicts the Employees' who are eligible for the mentorship program. <br>
 ![mentorship_eligibility](/Pewlett-Hackard-Analysis/Image/mentorship_eligibility.png)
 <br><br>
 
-# Conclusion #
-## Summary ##
+## The Movie Database ##
 From our analysis, we were able to conclude that the following:
 1. After analyzing the number of retiring employees by their titles, we were able to conclude that more than 60% of their employees are getting ready for retirement. The count of employees expected to retire is 90,398.
 2. We were also able to conclude that the senior staff also had senior designations, which made sense.
