@@ -18,8 +18,8 @@ The analysis consisted of the following:
 
 # Results #
 ## an ETL Function to Read Three Data Files ##
-MovieLens is a website run by the GroupLens research group at the University of Minnesota.The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database 
-The following depicts the DB Schema. <br>
+To Extract the three data files (wiki, kaggle, movielens).MovieLens is a website run by the GroupLens research group at the University of Minnesota.The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database.<br>
+
 ![DBD](/Pewlett-Hackard-Analysis/Image/EmployeeDB.png)
 
 ##  Extract and Transform the Wikipedia Data ##
