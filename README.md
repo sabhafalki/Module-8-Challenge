@@ -31,7 +31,7 @@ The following depicts the ratings DataFrame: <br>
 
 ##  Extract and Transform the Wikipedia Data ##
 Filtering out bad data is important, in order to get good clean data and a cleaned Wikipedia data is converted to a Pandas DataFrame for clear view.<br>
-The following depicts the columns from wiki_movies_df DataFrame to a list:
+The following depicts the columns from wiki_movies_df DataFrame to a list:<br>
 ![wiki_movie](/Image/to_list.png) <br>
 <br><br>
 
