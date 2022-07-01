@@ -42,8 +42,8 @@ The extraction and transformation of the Kaggle metadata using the ETL function 
 
 ## The Movie Database ##
 The Movie DataFrame consist of the movies table and ratings table in the SQL database, by adding elapsed time to the database.
-
+The following depicts the movies table in SQL database.<br>
 ![movies_query](/resources/movies_query.png)<br>
-
+The following depicts the ratings table in SQL database.<br>
 ![ratings_query](/resources/ratings_query.png)<br>
 <br><br>
