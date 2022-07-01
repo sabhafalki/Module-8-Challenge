@@ -14,11 +14,11 @@ The analysis consisted of the following:
 - Load : ETL_create_database.ipynb <br>
 - Languages : Python, SQL <br>
 - Tools : Jupyter Notebook, JSON, Pandas, NumPy, sqlalchemy, psycopg2 <br>
-- Data Source : wikipedia.movies.json, movies_metadata.csv, ratings.csv (Csv file can be upload because they are too big)
+- Data Source : wikipedia.movies.json, movies_metadata.csv, ratings.csv (Csv file could not be upload because they are too big)
 
 # Results #
 ## an ETL Function to Read Three Data Files ##
-To Extract the three data files (wiki, kaggle, movielens).MovieLens is a website run by the GroupLens research group at the University of Minnesota.The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database.<br>
+To Extract the three data files (wiki, kaggle, movielens). MovieLens is a website run by the GroupLens research group at the University of Minnesota. The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database.<br>
 
 The following depicts the wiki_movies_df DataFrame:<br>
 ![Movie_DataFrame](/Image/Wiki_Movies.png) <br>
