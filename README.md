@@ -23,33 +23,19 @@ To Extract the three data files (wiki, kaggle, movielens).MovieLens is a website
 ![DBD](/Pewlett-Hackard-Analysis/Image/EmployeeDB.png)
 
 ##  Extract and Transform the Wikipedia Data ##
-The following tables mentions the retiring employees by title, on the basis of their birth dates (i.e. born between 1952 and 1955). <br>
+Filtering out bad data is important, in order to get good clean data and a cleaned Wikipedia data is converted to a Pandas DataFrame for clear view.<br>
 ![retirement_titles](/Pewlett-Hackard-Analysis/Image/retirement_titles.png) <br>
 
-The following table is filtering the above for unique values only. <br>
 ![unique_titles](/Pewlett-Hackard-Analysis/Image/unique_titles.png) <br>
 
-The following table counts the number of employees based on their titles. <br>
 ![retiring_titles](/Pewlett-Hackard-Analysis/Image/retiring_titles.png)
 <br><br>
 
 ## Extract and Transform the Kaggle data ##
-The following table depicts the Employees' who are eligible for the mentorship program. <br>
+The extraction and transformation of the Kaggle metadata using the ETL function and performe the merging of Wikipedia and Kaggle DataFrames. <br>
 ![mentorship_eligibility](/Pewlett-Hackard-Analysis/Image/mentorship_eligibility.png)
 <br><br>
 
 ## The Movie Database ##
-From our analysis, we were able to conclude that the following:
-1. After analyzing the number of retiring employees by their titles, we were able to conclude that more than 60% of their employees are getting ready for retirement. The count of employees expected to retire is 90,398.
-2. We were also able to conclude that the senior staff also had senior designations, which made sense.
-3. We also realized that the highest number of Employees leaving were Senior Engineers and the Senior Staff. 
-4. There appears to be a high numebr of employees retiring, hence the organization needs to backfill. 
+The Movie DataFrame consist of the movies table and ratings table in the SQL database, by adding elapsed time to the database.
 
-## Further Analysis ##
-The following table provides a summary of the number of employees eligible for the mentorship program based on their designation. 
-It is evident from the table below, that the Senior Staff and Egineers were amonghst the hightest to be eligible for the mentroship program. <br>
-![unique_titles](/Pewlett-Hackard-Analysis/Image/mentorship_emp.png) <br>
-
-The following table provides a summary of the number of employees eligible for the mentorship program based on their department. 
-Based on the table below, we can conclude that the Development and Production Department had the hightest retirement rates. <br>
-![unique_titles](/Pewlett-Hackard-Analysis/Image/retirement_departments.png) <br>
